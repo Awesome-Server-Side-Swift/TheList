@@ -1,2 +1,3 @@
-# TheList
-A list of Awesome Server Side Swift 3 projects
+# The Awesome Server Side Swift List
+
+A list of Awesome Server Side Swift 3 projects. The list will be categorized by Frameworks, Utilities...
