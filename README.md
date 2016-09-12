@@ -3,13 +3,37 @@
 A list of Awesome Server Side Swift 3 projects. The list will be categorized by Frameworks, Utilities...
 
 ## Server Side Swift Frameworks
+Server Side Swift frameworks are projects that provide an infrastructure with which you can build a working Swift API.
 
+* [Perfect](https://github.com/PerfectlySoft/Perfect)
+* [Vapor](https://github.com/vapor/vapor)
+* [Zewo](https://github.com/Zewo/Zewo)
 
 ## Server Side Utilities
 
 ### File System
 
 ### Compression
+
+## Parsers
+
+### XML
+
+* [Perfect XML](https://github.com/PerfectlySoft/Perfect-XML)
+
+## Database Connectors
+
+### MySQL
+
+### PostgreSQL
+
+### SQLite
+
+### MongoDB
+
+## ORM
+
+* [Fluent](https://github.com/vapor/fluent) (Vapor)
 
 
 ## Code of Conduct
