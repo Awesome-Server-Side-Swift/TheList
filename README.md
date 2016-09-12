@@ -2,7 +2,14 @@
 
 A list of Awesome Server Side Swift 3 projects. The list will be categorized by Frameworks, Utilities...
 
+## Server Side Swift Frameworks
 
+
+## Server Side Utilities
+
+### File System
+
+### Compression
 
 
 ## Code of Conduct
