@@ -1,6 +1,40 @@
 # The Awesome Server Side Swift List
 
-A list of Awesome Server Side Swift 3 projects. The list will be categorized by Frameworks, Utilities...
+A curated list of awesome Server Side Swift 3 projects.
+
+Interested in conributing? Please see the [Contributing](#contributing) section below. Please note that components targeting iOS projects will not be considered unless there is a clear use case for a server side implementation.
+
+Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of his Awesome iOS list!
+
+## Table of Contents
+
+* [Server Side Swift Frameworks](#server-side-swift-frameworks)
+* [Server Side Utilities](#server-side-utilities)
+	* [File System](#file-system)
+	* [Compression](#compression)
+	* [Encryption / Cryptography](#encryption--cryptography)
+	* [Logging](#logging)
+	* [Command Line Access](#command-line-access)
+	* [iOS Notifications](#ios-notifications)
+	* [Networking](#networking)
+	* [Miscellaneous](#miscellaneous)
+* [Authentication](#authentication)
+* [Templating](#templating)
+* [Parsers](#parsers)
+	* [JSON](#json)
+	* [XML](#XML)
+	* [Miscellaneous Parsers](#miscellaneous-parsers)
+* [Database Connectors](#database-connectors)
+	* [MySQL](#mysql)
+	* [PostgreSQL](#postgresql)
+	* [SQLite](#sqlite)
+	* [MongoDB](#mongodb)
+	* [Redis](#redis)
+	* [FileMaker](#filemaker)
+* [ORM](#orm)
+* [Web Server Connectivity](#web-server-connectivity)
+	* [HTTP](#http-libraries)
+	* [WebSockets](#websockets)
 
 ## Server Side Swift Frameworks
 Server Side Swift frameworks are projects that provide an infrastructure with which you can build a working Swift API.
@@ -13,51 +47,51 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### File System
 
-* [Perfect File / Dir](https://github.com/PerfectlySoft/Perfect) (in core library)
+* [Perfect File / Dir](https://github.com/PerfectlySoft/Perfect) (in core library).
 
 ### Compression
 
-* [Perfect-Zip](https://github.com/PerfectlySoft/Perfect-Zip) - Perfect Zip compression utility
-* [Zewo gzip](https://github.com/Zewo/gzip) - gzip data compression from Swift, OS X & Linux ready
-* [Zewo zlib](https://github.com/Zewo/zlib) - SwiftPM-compatible fork of zlib, OS X & Linux ready
+* [Perfect-Zip](https://github.com/PerfectlySoft/Perfect-Zip) - Perfect Zip compression utility.
+* [Zewo gzip](https://github.com/Zewo/gzip) - gzip data compression from Swift, OS X & Linux ready.
+* [Zewo zlib](https://github.com/Zewo/zlib) - SwiftPM-compatible fork of zlib, OS X & Linux ready.
 * [Vapor gzip](https://github.com/vapor/gzip-provider)
 
 ### Encryption / Cryptography
 
 * [Perfect OpenSSL](https://github.com/PerfectlySoft/Perfect-COpenSSL)
-* [Vapor TLS](https://github.com/vapor/tls) - Swift OpenSSL and TLS wrapper
-* [Vapor Crypto](https://github.com/vapor/crypto) (Formerly CryptoKitten)
+* [Vapor TLS](https://github.com/vapor/tls) - Swift OpenSSL and TLS wrapper.
+* [Vapor Crypto](https://github.com/vapor/crypto) (Formerly CryptoKitten).
 * [Zewo OpenSSL](https://github.com/Zewo/COpenSSL)
 
 ### Logging
 
 * [Zewo Log](https://github.com/Zewo/Log)
-* [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library
+* [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
 
 ### Command Line Access
 
-* [SysProcess](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library
+* [SysProcess](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
 
 ### iOS Notifications
 
-* [Perfect-Notifications](https://github.com/PerfectlySoft/Perfect-Notifications) - iOS Notifications, etc. for Perfect
+* [Perfect-Notifications](https://github.com/PerfectlySoft/Perfect-Notifications) - iOS Notifications, etc. for Perfect.
 
 ### Networking
 
 * [Perfect Networking Library](https://github.com/PerfectlySoft/Perfect-Net) - Core asynchronous networking package used in Perfect. Includes support for TCP, SSL, UNIX socket files and IO event handling.
-* [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect
+* [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect.
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
 
 
 ### Miscellaneous
 
 * [Pefect Thread Library](https://github.com/PerfectlySoft/Perfect-Thread) - Core threading library for Perfect Server Side Swift. Includes support for serial and concurrent thread queues, locks, read/write locks and events.
-* [Zewo Threading](https://github.com/Zewo/Thread) - A concise and type-safe wrapper around the POSIX pthread API
+* [Zewo Threading](https://github.com/Zewo/Thread) - A concise and type-safe wrapper around the POSIX pthread API.
 * [Console](https://github.com/vapor/console)
-* [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ) - Distributed Messaging platform
-* [Zewo UUID](https://github.com/Zewo/UUID) - Easily generate UUID's in Swift
-* [Perfect UUID](https://github.com/PerfectlySoft/Perfect) - included in Core library
-* [POSIXRegex](https://github.com/Zewo/POSIXRegex) - provides POSIX Regular Expressions for Swift 3.0
+* [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ) - Distributed Messaging platform.
+* [Zewo UUID](https://github.com/Zewo/UUID) - Easily generate UUID's in Swift.
+* [Perfect UUID](https://github.com/PerfectlySoft/Perfect) - included in Core library.
+* [POSIXRegex](https://github.com/Zewo/POSIXRegex) - provides POSIX Regular Expressions for Swift 3.0.
 * [HTTP Serializer](https://github.com/Zewo/HTTPSerializer)
 
 ## Authentication
@@ -68,8 +102,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ## Templating
 
-* [Perfect Mustache](https://github.com/PerfectlySoft/Perfect-Mustache) - Mustache template support for Perfect
-* [Leaf](https://github.com/vapor/leaf) - An extensible templating language built for Vapor
+* [Perfect Mustache](https://github.com/PerfectlySoft/Perfect-Mustache) - Mustache template support for Perfect.
+* [Leaf](https://github.com/vapor/leaf) - An extensible templating language built for Vapor.
 * [Vapor Markdown Provider](https://github.com/vapor/markdown-provider)
 * [Vapor Mustache](https://github.com/vapor/mustache-provider)
 * [Zewo Mustache](https://github.com/Zewo/Mustache)
@@ -78,15 +112,15 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### JSON
 
-* [Vapor JSON](https://github.com/vapor/json) - JSON wrapper around Node
-* [Perfect JSON Convertible objects](https://github.com/PerfectlySoft/Perfect) (Perfect core library)
+* [Vapor JSON](https://github.com/vapor/json) - JSON wrapper around Node.
+* [Perfect JSON Convertible objects](https://github.com/PerfectlySoft/Perfect) - included in the Perfect core library.
 * [Zewo JSON](https://github.com/Zewo/JSON)
-* [Zewo HTTPParser](https://github.com/Zewo/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0
+* [Zewo HTTPParser](https://github.com/Zewo/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0.
 
 ### XML
 
-* [Perfect XML](https://github.com/PerfectlySoft/Perfect-XML) - XML support for Perfect
-* [Zewo XML](https://github.com/Zewo/XML) - XML/HTML parser for Swift
+* [Perfect XML](https://github.com/PerfectlySoft/Perfect-XML) - XML support for Perfect.
+* [Zewo XML](https://github.com/Zewo/XML) - XML/HTML parser for Swift.
 
 ### Miscellaneous Parsers
 
@@ -96,7 +130,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### MySQL
 
-* [Perfect MySQL connector](https://github.com/PerfectlySoft/Perfect-MySQL) - A stand-alone Swift wrapper around the MySQL client library
+* [Perfect MySQL connector](https://github.com/PerfectlySoft/Perfect-MySQL) - A stand-alone Swift wrapper around the MySQL client library.
 * [Vapor MySQL Provider](https://github.com/vapor/mysql-provider)
 * [Vapor MySQL Interface](https://github.com/vapor/mysql)
 * [MySQL driver for Fluent](https://github.com/vapor/mysql-driver)
@@ -104,7 +138,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### PostgreSQL
 
-* [Perfect PostgreSQL connector](https://github.com/PerfectlySoft/Perfect-PostgreSQL) - A stand-alone Swift wrapper around the libpq client library
+* [Perfect PostgreSQL connector](https://github.com/PerfectlySoft/Perfect-PostgreSQL) - A stand-alone Swift wrapper around the libpq client library.
 * [Vapor PostgreSQL interface](https://github.com/vapor/postgresql)
 * [Fluent PostgreSQL Driver](https://github.com/vapor/postgresql-driver) 
 * [Vapor SQLite3 wrapper for Swift](https://github.com/vapor/sqlite)
@@ -112,43 +146,70 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### SQLite
 
-* [Perfect SQLite connector](https://github.com/PerfectlySoft/Perfect-SQLite) - A stand-alone Swift wrapper around the SQLite 3 client library
+* [Perfect SQLite connector](https://github.com/PerfectlySoft/Perfect-SQLite) - A stand-alone Swift wrapper around the SQLite 3 client library.
 * [SQLite3 provider for Vapor](https://github.com/vapor/sqlite-provider)
 * [SQLite driver for Fluent](https://github.com/vapor/sqlite-driver)
 
 ### MongoDB
 
-* [Perfect MongoDB connector](https://github.com/PerfectlySoft/Perfect-MongoDB) - A stand-alone Swift wrapper around the mongo-c client library
-* [MongoDB driver for Fluent](https://github.com/vapor/mongo-driver) - MongoDB driver for Fluent
+* [Perfect MongoDB connector](https://github.com/PerfectlySoft/Perfect-MongoDB) - A stand-alone Swift wrapper around the mongo-c client library.
+* [MongoDB driver for Fluent](https://github.com/vapor/mongo-driver) - MongoDB driver for Fluent.
 
 ### Redis
 
 * [Perfect Redis connector](https://github.com/PerfectlySoft/Perfect-Redis) - A stand-alone Swift wrapper around the Redis client library, enabling access to Redis.
 * [Redbird](https://github.com/vapor/redbird) - Pure-Swift Redis client implemented from the original protocol spec. OS X + Linux compatible.
 * [Vapor Redbird/Redis provider](https://github.com/vapor/redis-provider)
-* [Zewo Redis client](https://github.com/Zewo/Redis) - Redis client for (pure) Swift
+* [Zewo Redis client](https://github.com/Zewo/Redis) - Redis client for (pure) Swift.
 
 ### FileMaker
 
-* [Perfect Filemaker connector](https://github.com/PerfectlySoft/Perfect-FileMaker) - A stand-alone Swift wrapper around the FileMaker XML Web publishing interface
+* [Perfect Filemaker connector](https://github.com/PerfectlySoft/Perfect-FileMaker) - A stand-alone Swift wrapper around the FileMaker XML Web publishing interface.
 
 ## ORM
 
-* [Fluent](https://github.com/vapor/fluent) (Vapor) - Swift models, relationships, and querying for NoSQL and SQL databases
+* [Fluent](https://github.com/vapor/fluent) (Vapor) - Swift models, relationships, and querying for NoSQL and SQL databases.
 
-## Web Server connectivity
-Connectors to Web servers such as Apache, nginx
+## Web Server Connectivity
 
-* [Perfect HTTP Server](https://github.com/PerfectlySoft/Perfect-HTTPServer) - HTTP 1.1 Server for Perfect Server Side Swift
-* [Perfect HTTP Libraries](https://github.com/PerfectlySoft/Perfect-HTTP) - Base HTTP Support for Perfect
+### HTTP Libraries
+Connectors to Web servers such as Apache, nginx.
+
+* [Perfect HTTP Server](https://github.com/PerfectlySoft/Perfect-HTTPServer) - HTTP 1.1 Server for Perfect Server Side Swift.
+* [Perfect HTTP Libraries](https://github.com/PerfectlySoft/Perfect-HTTP) - Base HTTP Support for Perfect.
 * [Perfect FastCGI Apache 2.4](https://github.com/PerfectlySoft/Perfect-FastCGI-Apache2.4)
-* [Perfect FastCGI](https://github.com/PerfectlySoft/Perfect-FastCGI) - FastCGI server for Perfect
+* [Perfect FastCGI](https://github.com/PerfectlySoft/Perfect-FastCGI) - FastCGI server for Perfect.
 
 ### WebSockets
 
 * [Zewo WebSocket](https://github.com/Zewo/WebSocket)
 * [Perfect WebSockets](https://github.com/PerfectlySoft/Perfect-WebSockets) - WebSockets support for Perfect
 
+## Contributing
+
+Submit a pull request with changes. Please use GitHub Issues for dead or changed links only.
+
+* Search previous suggestions before making a new one, as yours may be a duplicate.
+* Make an individual pull request for each suggestion.
+* Use the following format: [PACKAGE](LINK) - DESCRIPTION.
+* New categories, or improvements to the existing categorization are welcome.
+* Keep descriptions short and simple, but descriptive.
+* End all descriptions with a full stop/period.
+* Check your spelling and grammar.
+* Make sure that your suggestion is positioned as the last item category.
+* Make sure your text editor is set to remove trailing whitespace.
+* Projects *must* work in Swift 3.0 (or above). ObjC and Swift 1 & 2 projects will not be considered.
+
+Projects are ineligible if:
+
+* Doesn't have commit for more than two years.
+* Only have README in another language (Chinese, Japanese, Portuguese and etc)
+* We cannot clearly understand the objective.
+* Without clear README
+
+
+## License
+Distributed under the MIT license. See [LICENSE](https://github.com/Awesome-Server-Side-Swift/TheList/blob/master/LICENSE) for more information.
 
 ## Code of Conduct
 
