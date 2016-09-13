@@ -18,6 +18,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Compression
 
 * [Perfect-Zip](https://github.com/PerfectlySoft/Perfect-Zip) - Perfect Zip compression utility
+* [Zewo gzip](https://github.com/Zewo/gzip) - gzip data compression from Swift, OS X & Linux ready
+* [Zewo zlib](https://github.com/Zewo/zlib) - SwiftPM-compatible fork of zlib, OS X & Linux ready
 * [Vapor gzip](https://github.com/vapor/gzip-provider)
 
 ### Encryption / Cryptography
@@ -25,6 +27,16 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect OpenSSL](https://github.com/PerfectlySoft/Perfect-COpenSSL)
 * [Vapor TLS](https://github.com/vapor/tls) - Swift OpenSSL and TLS wrapper
 * [Vapor Crypto](https://github.com/vapor/crypto) (Formerly CryptoKitten)
+* [Zewo OpenSSL](https://github.com/Zewo/COpenSSL)
+
+### Logging
+
+* [Zewo Log](https://github.com/Zewo/Log)
+* [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library
+
+### Command Line Access
+
+* [SysProcess](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library
 
 ### iOS Notifications
 
@@ -40,11 +52,19 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Miscellaneous
 
 * [Pefect Thread Library](https://github.com/PerfectlySoft/Perfect-Thread) - Core threading library for Perfect Server Side Swift. Includes support for serial and concurrent thread queues, locks, read/write locks and events.
+* [Zewo Threading](https://github.com/Zewo/Thread) - A concise and type-safe wrapper around the POSIX pthread API
 * [Console](https://github.com/vapor/console)
+* [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ) - Distributed Messaging platform
+* [Zewo UUID](https://github.com/Zewo/UUID) - Easily generate UUID's in Swift
+* [Perfect UUID](https://github.com/PerfectlySoft/Perfect) - included in Core library
+* [POSIXRegex](https://github.com/Zewo/POSIXRegex) - provides POSIX Regular Expressions for Swift 3.0
+* [HTTP Serializer](https://github.com/Zewo/HTTPSerializer)
 
 ## Authentication
 
 * [Turnstile](https://github.com/vapor/Turnstile) (Vapor) - An authentication framework for Swift.
+* [Hashed Password](https://github.com/Zewo/HashedPassword)
+* [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
 
 ## Templating
 
@@ -52,6 +72,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Leaf](https://github.com/vapor/leaf) - An extensible templating language built for Vapor
 * [Vapor Markdown Provider](https://github.com/vapor/markdown-provider)
 * [Vapor Mustache](https://github.com/vapor/mustache-provider)
+* [Zewo Mustache](https://github.com/Zewo/Mustache)
 
 ## Parsers
 
@@ -59,10 +80,17 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [Vapor JSON](https://github.com/vapor/json) - JSON wrapper around Node
 * [Perfect JSON Convertible objects](https://github.com/PerfectlySoft/Perfect) (Perfect core library)
+* [Zewo JSON](https://github.com/Zewo/JSON)
+* [Zewo HTTPParser](https://github.com/Zewo/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0
 
 ### XML
 
 * [Perfect XML](https://github.com/PerfectlySoft/Perfect-XML) - XML support for Perfect
+* [Zewo XML](https://github.com/Zewo/XML) - XML/HTML parser for Swift
+
+### Miscellaneous Parsers
+
+* [URI Parser](https://github.com/Zewo/URI) - URI (RFC 3986) for Swift 3.0.
 
 ## Database Connectors
 
@@ -72,6 +100,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor MySQL Provider](https://github.com/vapor/mysql-provider)
 * [Vapor MySQL Interface](https://github.com/vapor/mysql)
 * [MySQL driver for Fluent](https://github.com/vapor/mysql-driver)
+* [Zewo MySQL Driver](https://github.com/Zewo/MySQL)
 
 ### PostgreSQL
 
@@ -79,6 +108,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor PostgreSQL interface](https://github.com/vapor/postgresql)
 * [Fluent PostgreSQL Driver](https://github.com/vapor/postgresql-driver) 
 * [Vapor SQLite3 wrapper for Swift](https://github.com/vapor/sqlite)
+* [Zewo PostgreSQL](https://github.com/Zewo/PostgreSQL)
 
 ### SQLite
 
@@ -96,6 +126,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect Redis connector](https://github.com/PerfectlySoft/Perfect-Redis) - A stand-alone Swift wrapper around the Redis client library, enabling access to Redis.
 * [Redbird](https://github.com/vapor/redbird) - Pure-Swift Redis client implemented from the original protocol spec. OS X + Linux compatible.
 * [Vapor Redbird/Redis provider](https://github.com/vapor/redis-provider)
+* [Zewo Redis client](https://github.com/Zewo/Redis) - Redis client for (pure) Swift
 
 ### FileMaker
 
@@ -110,9 +141,13 @@ Connectors to Web servers such as Apache, nginx
 
 * [Perfect HTTP Server](https://github.com/PerfectlySoft/Perfect-HTTPServer) - HTTP 1.1 Server for Perfect Server Side Swift
 * [Perfect HTTP Libraries](https://github.com/PerfectlySoft/Perfect-HTTP) - Base HTTP Support for Perfect
-* [Perfect WebSockets](https://github.com/PerfectlySoft/Perfect-WebSockets) - WebSockets support for Perfect
 * [Perfect FastCGI Apache 2.4](https://github.com/PerfectlySoft/Perfect-FastCGI-Apache2.4)
 * [Perfect FastCGI](https://github.com/PerfectlySoft/Perfect-FastCGI) - FastCGI server for Perfect
+
+### WebSockets
+
+* [Zewo WebSocket](https://github.com/Zewo/WebSocket)
+* [Perfect WebSockets](https://github.com/PerfectlySoft/Perfect-WebSockets) - WebSockets support for Perfect
 
 
 ## Code of Conduct
