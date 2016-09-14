@@ -82,6 +82,10 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect.
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
 
+### Configuration
+
+* [JSON Config](https://github.com/iamjono/JSONConfig) - A Swift 3 JSON Config reader library. Reads JSON files for server side configuration.
+* [Swifty-pList](https://github.com/iamjono/Swifty-pList) - A Swift 3 pList library. Reads & writes pLists for server side configuration.
 
 ### Miscellaneous
 
