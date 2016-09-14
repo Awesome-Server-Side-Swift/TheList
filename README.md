@@ -190,6 +190,10 @@ Connectors to Web servers such as Apache, nginx.
 * [Zewo WebSocket](https://github.com/Zewo/WebSocket)
 * [Perfect WebSockets](https://github.com/PerfectlySoft/Perfect-WebSockets) - WebSockets support for Perfect
 
+### Distributed Messaging
+
+* [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ)
+
 ## Contributing
 
 Submit a pull request with changes. Please use GitHub Issues for dead or changed links only.
