@@ -17,6 +17,7 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 	* [Command Line Access](#command-line-access)
 	* [iOS Notifications](#ios-notifications)
 	* [Networking](#networking)
+	* [Configuration](#configuration)
 	* [Miscellaneous](#miscellaneous)
 * [Authentication](#authentication)
 * [Templating](#templating)
