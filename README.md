@@ -83,8 +83,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect Networking Library](https://github.com/PerfectlySoft/Perfect-Net) - Core asynchronous networking package used in Perfect. Includes support for TCP, SSL, UNIX socket files and IO event handling.
 * [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect.
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
-* [Zewo HTTP Client](https://github.com/Zewo/HTTPClient)
-* [Zewo HTTPS Client](https://github.com/Zewo/HTTPSClient)
+* [Zewo HTTP Client](https://github.com/VeniceX/HTTPClient)
+* [Zewo HTTPS Client](https://github.com/VeniceX/HTTPSClient)
 
 ### Configuration
 
@@ -104,7 +104,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ## Authentication
 
-* [Turnstile](https://github.com/vapor/Turnstile) (Vapor) - An authentication framework for Swift.
+* [Turnstile](https://github.com/Vapor-Deprecated/Turnstile) (Vapor) - An authentication framework for Swift.
 * [Hashed Password](https://github.com/Zewo/HashedPassword)
 * [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
 
