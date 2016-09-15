@@ -43,6 +43,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect](https://github.com/PerfectlySoft/Perfect)
 * [Vapor](https://github.com/vapor/vapor)
 * [Zewo](https://github.com/Zewo/Zewo)
+* [Kitura](https://github.com/IBM-Swift/Kitura)
 
 ## Server Side Utilities
 
@@ -82,6 +83,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect Networking Library](https://github.com/PerfectlySoft/Perfect-Net) - Core asynchronous networking package used in Perfect. Includes support for TCP, SSL, UNIX socket files and IO event handling.
 * [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect.
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
+* [Zewo HTTP Client](https://github.com/Zewo/HTTPClient)
+* [Zewo HTTPS Client](https://github.com/Zewo/HTTPSClient)
 
 ### Configuration
 
@@ -112,6 +115,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor Markdown Provider](https://github.com/vapor/markdown-provider)
 * [Vapor Mustache](https://github.com/vapor/mustache-provider)
 * [Zewo Mustache](https://github.com/Zewo/Mustache)
+* [MuttonChop](https://github.com/Danappelxx/MuttonChop) - Mustache templates in Swift
 
 ## Parsers
 
@@ -120,6 +124,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor JSON](https://github.com/vapor/json) - JSON wrapper around Node.
 * [Perfect JSON Convertible objects](https://github.com/PerfectlySoft/Perfect) - included in the Perfect core library.
 * [Zewo JSON](https://github.com/Zewo/JSON)
+* [Vdka JSON](https://github.com/Vdka/JSON)
 * [Zewo HTTPParser](https://github.com/Zewo/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0.
 
 ### XML
@@ -159,6 +164,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [Perfect MongoDB connector](https://github.com/PerfectlySoft/Perfect-MongoDB) - A stand-alone Swift wrapper around the mongo-c client library.
 * [MongoDB driver for Fluent](https://github.com/vapor/mongo-driver) - MongoDB driver for Fluent.
+* [MongoKitten](https://github.com/OpenKitten/MongoKitten) - Native MongoDB driver for Swift, written in Swift
 
 ### Redis
 
@@ -174,6 +180,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ## ORM
 
 * [Fluent](https://github.com/vapor/fluent) (Vapor) - Swift models, relationships, and querying for NoSQL and SQL databases.
+* [SQL](https://github.com/Zewo/SQL) (Zewo) - Provides an ORM and base conformance for SQL adapters.
 
 ## Web Server Connectivity
 
@@ -187,7 +194,8 @@ Connectors to Web servers such as Apache, nginx.
 
 ### WebSockets
 
-* [Zewo WebSocket](https://github.com/Zewo/WebSocket)
+* [Zewo WebSocket Server](https://github.com/Zewo/WebSocketServer)
+* [Zewo WebSocket Client](https://github.com/Zewo/WebSocketClient)
 * [Perfect WebSockets](https://github.com/PerfectlySoft/Perfect-WebSockets) - WebSockets support for Perfect
 
 ### Distributed Messaging
