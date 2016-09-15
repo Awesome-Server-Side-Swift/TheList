@@ -104,7 +104,9 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ## Authentication
 
-* [Turnstile](https://github.com/vapor/Turnstile) (Vapor) - An authentication framework for Swift.
+* [Turnstile](https://github.com/stormpath/Turnstile) - an authentication framework for Swift. Integrations with:
+ * [Vapor](https://github.com/vapor/vapor/tree/master/Sources/Auth/Authentication)
+ * [Perfect](https://github.com/stormpath/Turnstile-Perfect)
 * [Hashed Password](https://github.com/Zewo/HashedPassword)
 * [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
 
