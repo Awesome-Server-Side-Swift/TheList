@@ -18,6 +18,7 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 	* [iOS Notifications](#ios-notifications)
 	* [Networking](#networking)
 	* [Configuration](#configuration)
+	* [Testing](#testing)
 	* [Miscellaneous](#miscellaneous)
 * [Authentication](#authentication)
 * [Templating](#templating)
@@ -90,6 +91,10 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [JSON Config](https://github.com/iamjono/JSONConfig) - A Swift 3 JSON Config reader library. Reads JSON files for server side configuration.
 * [Swifty-pList](https://github.com/iamjono/Swifty-pList) - A Swift 3 pList library. Reads & writes pLists for server side configuration.
+
+### Testing
+
+* [SwiftRandom](https://github.com/iamjono/SwiftRandom) - A tiny generator of random data for swift. SPM module.
 
 ### Miscellaneous
 
