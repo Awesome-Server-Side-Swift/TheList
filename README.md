@@ -70,10 +70,12 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [Zewo Log](https://github.com/Zewo/Log)
 * [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
+* [Vapor SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver-Vapor) - Logging Provider for Vapor, the server-side Swift 3 web framework
 
 ### Command Line Access
 
 * [SysProcess](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
+* [Vapor Console](https://github.com/vapor/console) - Swift wrapper for Console I/O
 
 ### iOS Notifications
 
@@ -198,12 +200,14 @@ Connectors to Web servers such as Apache, nginx.
 * [Perfect HTTP Libraries](https://github.com/PerfectlySoft/Perfect-HTTP) - Base HTTP Support for Perfect.
 * [Perfect FastCGI Apache 2.4](https://github.com/PerfectlySoft/Perfect-FastCGI-Apache2.4)
 * [Perfect FastCGI](https://github.com/PerfectlySoft/Perfect-FastCGI) - FastCGI server for Perfect.
+* [Vapor Engine](https://github.com/vapor/engine) - Pure Swift HTTP
 
 ### WebSockets
 
 * [Zewo WebSocket Server](https://github.com/Zewo/WebSocketServer)
 * [Zewo WebSocket Client](https://github.com/Zewo/WebSocketClient)
 * [Perfect WebSockets](https://github.com/PerfectlySoft/Perfect-WebSockets) - WebSockets support for Perfect
+* [Vapor Engine](https://github.com/vapor/engine) - Pure Swift WebSockets
 
 ### Distributed Messaging
 
