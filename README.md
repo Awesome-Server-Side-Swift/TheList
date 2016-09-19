@@ -68,7 +68,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### Logging
 
-* [Zewo Log](https://github.com/Zewo/Log)
+* [Zewo Log](https://github.com/ZewoGraveyard/Log)
 * [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
 
 ### Command Line Access
@@ -85,7 +85,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect.
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
 * [Zewo HTTP Client](https://github.com/Zewo/HTTPClient)
-* [Zewo HTTPS Client](https://github.com/Zewo/HTTPSClient)
+* [Zewo HTTPS Client](https://github.com/ZewoGraveyard/HTTPSClient)
 
 ### Configuration
 
@@ -101,11 +101,11 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Pefect Thread Library](https://github.com/PerfectlySoft/Perfect-Thread) - Core threading library for Perfect Server Side Swift. Includes support for serial and concurrent thread queues, locks, read/write locks and events.
 * [Zewo Threading](https://github.com/Zewo/Thread) - A concise and type-safe wrapper around the POSIX pthread API.
 * [Console](https://github.com/vapor/console)
-* [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ) - Distributed Messaging platform.
+* [Zewo ZeroMQ](https://github.com/ZewoGraveyard/ZeroMQ) - Distributed Messaging platform.
 * [Zewo UUID](https://github.com/Zewo/UUID) - Easily generate UUID's in Swift.
 * [Perfect UUID](https://github.com/PerfectlySoft/Perfect) - included in Core library.
-* [POSIXRegex](https://github.com/Zewo/POSIXRegex) - provides POSIX Regular Expressions for Swift 3.0.
-* [HTTP Serializer](https://github.com/Zewo/HTTPSerializer)
+* [POSIXRegex](https://github.com/ZewoGraveyard/POSIXRegex) - provides POSIX Regular Expressions for Swift 3.0.
+* [HTTP Serializer](https://github.com/ZewoGraveyard/HTTPSerializer)
 
 ## Authentication
 
@@ -132,7 +132,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect JSON Convertible objects](https://github.com/PerfectlySoft/Perfect) - included in the Perfect core library.
 * [Zewo JSON](https://github.com/Zewo/JSON)
 * [Vdka JSON](https://github.com/Vdka/JSON)
-* [Zewo HTTPParser](https://github.com/Zewo/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0.
+* [Zewo HTTPParser](https://github.com/ZewoGraveyard/HTTPParser) - HTTP (RFC 2616) parser for Swift 3.0.
 
 ### XML
 
@@ -141,7 +141,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### Miscellaneous Parsers
 
-* [URI Parser](https://github.com/Zewo/URI) - URI (RFC 3986) for Swift 3.0.
+* [URI Parser](https://github.com/ZewoGraveyard/URI) - URI (RFC 3986) for Swift 3.0.
 
 ## Database Connectors
 
