@@ -2,7 +2,7 @@
 
 A curated list of awesome Server Side Swift 3 projects.
 
-Interested in conributing? Please see the [Contributing](#contributing) section below. Please note that components targeting iOS projects will not be considered unless there is a clear use case for a server side implementation.
+Interested in conributing? Please see the [Contributing](#contributing) section below. Please note that components targeting iOS projects will not be considered unless there is a clear use case for a server side implementation. Projects must also be SPM modules that can be included as dependancies.
 
 Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of his Awesome iOS list!
 
@@ -227,9 +227,11 @@ Submit a pull request with changes. Please use GitHub Issues for dead or changed
 * Make sure that your suggestion is positioned as the last item category.
 * Make sure your text editor is set to remove trailing whitespace.
 * Projects *must* work in Swift 3.0 (or above). ObjC and Swift 1 & 2 projects will not be considered.
+* The Project must be an SPM module that can be included directly.
 
 Projects are ineligible if:
 
+* The project is not in and of itself, an SPM module. 
 * Doesn't have commit for more than two years.
 * Only have README in another language (Chinese, Japanese, Portuguese and etc)
 * We cannot clearly understand the objective.
