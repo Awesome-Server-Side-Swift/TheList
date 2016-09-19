@@ -41,10 +41,10 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 ## Server Side Swift Frameworks
 Server Side Swift frameworks are projects that provide an infrastructure with which you can build a working Swift API.
 
+* [Kitura](https://github.com/IBM-Swift/Kitura)
 * [Perfect](https://github.com/PerfectlySoft/Perfect)
 * [Vapor](https://github.com/vapor/vapor)
 * [Zewo](https://github.com/Zewo/Zewo)
-* [Kitura](https://github.com/IBM-Swift/Kitura)
 
 ## Server Side Utilities
 
