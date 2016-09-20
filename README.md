@@ -26,6 +26,8 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 	* [JSON](#json)
 	* [XML](#XML)
 	* [Miscellaneous Parsers](#miscellaneous-parsers)
+* [Utility](#utility)
+	* [Strings](#strings)
 * [Database Connectors](#database-connectors)
 	* [MySQL](#mysql)
 	* [PostgreSQL](#postgresql)
@@ -148,6 +150,12 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Miscellaneous Parsers
 
 * [URI Parser](https://github.com/ZewoGraveyard/URI) - URI (RFC 3986) for Swift 3.0.
+
+## Utility
+
+### Strings
+
+* [SwiftString](https://github.com/iamjono/SwiftString) - A comprehensive, lightweight string extension for Swift 3
 
 ## Database Connectors
 
