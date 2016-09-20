@@ -71,6 +71,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Zewo Log](https://github.com/ZewoGraveyard/Log)
 * [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
 * [Vapor SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver-Vapor) - Logging Provider for Vapor, the server-side Swift 3 web framework
+* [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver) - convenient logging during development & release to console, file & cloud
 
 ### Command Line Access
 
