@@ -28,6 +28,7 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 	* [Miscellaneous Parsers](#miscellaneous-parsers)
 * [Utility](#utility)
 	* [Strings](#strings)
+	* [Misc Utilities](#misc_utilities)
 * [Database Connectors](#database-connectors)
 	* [MySQL](#mysql)
 	* [PostgreSQL](#postgresql)
@@ -156,6 +157,11 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Strings
 
 * [SwiftString](https://github.com/iamjono/SwiftString) - A comprehensive, lightweight string extension for Swift 3
+
+### Misc Utilities
+
+* [Duration](https://github.com/iamjono/Duration) - A simple Swift package for measuring and reporting the time taken for operations
+
 
 ## Database Connectors
 
