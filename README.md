@@ -28,7 +28,7 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 	* [Miscellaneous Parsers](#miscellaneous-parsers)
 * [Utility](#utility)
 	* [Strings](#strings)
-	* [Misc Utilities](#misc_utilities)
+	* [Misc Utilities](#misc-utilities)
 * [Database Connectors](#database-connectors)
 	* [MySQL](#mysql)
 	* [PostgreSQL](#postgresql)
