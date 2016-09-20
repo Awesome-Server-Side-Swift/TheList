@@ -61,6 +61,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 ### Encryption / Cryptography
 
+* [AES256CBC](https://github.com/SwiftyBeaver/AES256CBC) - convenient AES256 encryption of strings
 * [Perfect OpenSSL](https://github.com/PerfectlySoft/Perfect-COpenSSL)
 * [Vapor TLS](https://github.com/vapor/tls) - Swift OpenSSL and TLS wrapper.
 * [Vapor Crypto](https://github.com/vapor/crypto) (Formerly CryptoKitten).
