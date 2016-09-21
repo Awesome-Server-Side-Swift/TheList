@@ -87,6 +87,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### iOS Notifications
 
 * [Perfect-Notifications](https://github.com/PerfectlySoft/Perfect-Notifications) - iOS Notifications, etc. for Perfect.
+* [Tori-APNS](https://github.com/boostcode/Tori-APNS) - iOS APSN push notification sender.
 
 ### Networking
 
