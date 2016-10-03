@@ -71,6 +71,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor TLS](https://github.com/vapor/tls) - Swift OpenSSL and TLS wrapper.
 * [Vapor Crypto](https://github.com/vapor/crypto) (Formerly CryptoKitten).
 * [Zewo OpenSSL](https://github.com/Zewo/COpenSSL)
+* [BlueSSLService](https://github.com/IBM-Swift/bluesslservice) - SSL sockets 
 
 ### Logging
 
@@ -78,6 +79,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect Logging](https://github.com/PerfectlySoft/Perfect) - component of core Perfect Library.
 * [Vapor SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver-Vapor) - Logging Provider for Vapor, the server-side Swift 3 web framework
 * [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver) - convenient logging during development & release to console, file & cloud
+* [HeliumLogger](https://github.com/IBM-Swift/HeliumLogger) - Light-weight logging library
 
 ### Command Line Access
 
@@ -96,6 +98,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
 * [Zewo HTTP Client](https://github.com/Zewo/HTTPClient)
 * [Zewo HTTPS Client](https://github.com/ZewoGraveyard/HTTPSClient)
+* [BlueSocket](https://github.com/IBM-Swift/BlueSocket/) - TCP and UDP socket support in (pure) Swift.
 
 ### Configuration
 
@@ -124,6 +127,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
  * [Perfect](https://github.com/stormpath/Turnstile-Perfect)
 * [Hashed Password](https://github.com/Zewo/HashedPassword)
 * [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
+* [Kitura Credentials](https://github.com/IBM-Swift/Kitura-Credentials) - Pluggable framework for validating credentials
 
 ## Templating
 
@@ -133,6 +137,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor Mustache](https://github.com/vapor/mustache-provider)
 * [Zewo Mustache](https://github.com/Zewo/Mustache)
 * [MuttonChop](https://github.com/Danappelxx/MuttonChop) - Mustache templates in Swift
+* [Kitura Template Engine](https://github.com/IBM-Swift/Kitura-TemplateEngine) - Template engine for Kitura
 
 ## Parsers
 
@@ -200,6 +205,11 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Redbird](https://github.com/vapor/redbird) - Pure-Swift Redis client implemented from the original protocol spec. OS X + Linux compatible.
 * [Vapor Redbird/Redis provider](https://github.com/vapor/redis-provider)
 * [Zewo Redis client](https://github.com/Zewo/Redis) - Redis client for (pure) Swift.
+* [Kitura Redis](https://github.com/IBM-Swift/Kitura-redis) - Redis client in (pure) Swift.
+
+### Cassandra
+
+* [Kassandra](https://github.com/IBM-Swift/Kassandra) - Cassandra CQL 3.2 client in (pure) Swift.
 
 ### FileMaker
 
@@ -220,6 +230,7 @@ Connectors to Web servers such as Apache, nginx.
 * [Perfect FastCGI Apache 2.4](https://github.com/PerfectlySoft/Perfect-FastCGI-Apache2.4)
 * [Perfect FastCGI](https://github.com/PerfectlySoft/Perfect-FastCGI) - FastCGI server for Perfect.
 * [Vapor Engine](https://github.com/vapor/engine) - Pure Swift HTTP
+* [Kitura Networking](https://github.com/IBM-Swift/Kitura-net) - HTTP server and networking 
 
 ### WebSockets
 
@@ -231,6 +242,10 @@ Connectors to Web servers such as Apache, nginx.
 ### Distributed Messaging
 
 * [Zewo ZeroMQ](https://github.com/Zewo/ZeroMQ)
+
+### MQTT
+
+* [Aphid](https://github.com/IBM-Swift/aphid) - MQTT 3.1 library in (pure) Swift.
 
 ## Contributing
 
