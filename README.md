@@ -128,6 +128,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Hashed Password](https://github.com/Zewo/HashedPassword)
 * [JSON WebTokens](https://github.com/Zewo/JSONWebToken)
 * [Kitura Credentials](https://github.com/IBM-Swift/Kitura-Credentials) - Pluggable framework for validating credentials
+* [Perfect-Turnstile-SQLite](https://github.com/PerfectlySoft/Perfect-Turnstile-SQLite) - Perfect Integration of Turnstile with SQLite ([Demo](https://github.com/PerfectExamples/Perfect-Turnstile-SQLite-Demo))
+* [Perfect-Turnstile-PostgreSQL](https://github.com/PerfectlySoft/Perfect-Turnstile-PostgreSQL) - Perfect Integration of Turnstile qith PostgreSQL ([Demo](https://github.com/PerfectExamples/Perfect-Turnstile-PostgreSQL-Demo))
 
 ## Templating
 
