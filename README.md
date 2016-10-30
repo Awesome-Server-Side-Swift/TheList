@@ -222,6 +222,9 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [Fluent](https://github.com/vapor/fluent) (Vapor) - Swift models, relationships, and querying for NoSQL and SQL databases.
 * [SQL](https://github.com/Zewo/SQL) (Zewo) - Provides an ORM and base conformance for SQL adapters.
+* [StORM - SQLite](https://github.com/SwiftORM/SQLite-StORM) - Swift ORM for SQLite
+* [StORM - MySQL](https://github.com/SwiftORM/MySQL-StORM) - Swift ORM for MySQL
+* [StORM - PostgreSQL](https://github.com/SwiftORM/Postgres-StORM) - Swift ORM for PostgreSQL
 
 ## Web Server Connectivity
 
