@@ -108,6 +108,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Testing
 
 * [SwiftRandom](https://github.com/iamjono/SwiftRandom) - A tiny generator of random data for swift. SPM module.
+* [LoremSwiftum](https://github.com/iamjono/LoremSwiftum) - A lightweight lorem ipsum generator for Swift.
 
 ### Miscellaneous
 
