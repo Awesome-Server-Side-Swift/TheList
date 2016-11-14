@@ -160,6 +160,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Miscellaneous Parsers
 
 * [URI Parser](https://github.com/ZewoGraveyard/URI) - URI (RFC 3986) for Swift 3.0.
+* [GaphQL] (https://github.com/GraphQLSwift/GraphQL) - The Swift GraphQL implementation for macOS and Linux
 
 ## Utility
 
