@@ -80,6 +80,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Vapor SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver-Vapor) - Logging Provider for Vapor, the server-side Swift 3 web framework
 * [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver) - convenient logging during development & release to console, file & cloud
 * [HeliumLogger](https://github.com/IBM-Swift/HeliumLogger) - Light-weight logging library
+* [Perfect Logger](https://github.com/PerfectlySoft/Perfect-Logger) - File based logging library, with linking of eventids
+* [Perfect RequestLogger](https://github.com/PerfectlySoft/Perfect-RequestLogger) - HTTP logging library
 
 ### Command Line Access
 
