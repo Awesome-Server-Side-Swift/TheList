@@ -6,6 +6,7 @@ Interested in contributing? Please see the [Contributing](#contributing) section
 
 Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of his Awesome iOS list!
 
+
 ## Table of Contents
 
 * [Server Side Swift Frameworks](#server-side-swift-frameworks)
@@ -174,7 +175,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 ### Misc Utilities
 
 * [Duration](https://github.com/iamjono/Duration) - A simple Swift package for measuring and reporting the time taken for operations
-
+* [GitHub issues plugin for Xcode](https://github.com/ambientlight/GithubIssuesExtension)
 
 ## Database Connectors
 
