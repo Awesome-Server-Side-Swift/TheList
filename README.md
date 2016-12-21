@@ -35,6 +35,7 @@ Thanks goes out to [vsouza](https://github.com/vsouza) for the inspiration of hi
 	* [PostgreSQL](#postgresql)
 	* [SQLite](#sqlite)
 	* [MongoDB](#mongodb)
+	* [CouchDB](#couchdb)
 	* [Redis](#redis)
 	* [FileMaker](#filemaker)
 * [ORM](#orm)
@@ -134,6 +135,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Kitura Credentials](https://github.com/IBM-Swift/Kitura-Credentials) - Pluggable framework for validating credentials
 * [Perfect-Turnstile-SQLite](https://github.com/PerfectlySoft/Perfect-Turnstile-SQLite) - Perfect Integration of Turnstile with SQLite ([Demo](https://github.com/PerfectExamples/Perfect-Turnstile-SQLite-Demo))
 * [Perfect-Turnstile-PostgreSQL](https://github.com/PerfectlySoft/Perfect-Turnstile-PostgreSQL) - Perfect Integration of Turnstile qith PostgreSQL ([Demo](https://github.com/PerfectExamples/Perfect-Turnstile-PostgreSQL-Demo))
+* [Perfect-Turnstile-CouchDB](https://github.com/PerfectlySoft/Perfect-Turnstile-CouchDB) - Perfect Integration of Turnstile qith PostgreSQL ([Demo](https://github.com/PerfectExamples/Perfect-Turnstile-CouchDB-Demo))
 
 ## Templating
 
@@ -207,6 +209,10 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [MongoDB driver for Fluent](https://github.com/vapor/mongo-driver) - MongoDB driver for Fluent.
 * [MongoKitten](https://github.com/OpenKitten/MongoKitten) - Native MongoDB driver for Swift, written in Swift
 
+### CouchDB
+
+* [Perfect CouchDB connector](https://github.com/PerfectlySoft/Perfect-CouchDB) - A Swift connector for accessing CouchDB databases
+
 ### Redis
 
 * [Perfect Redis connector](https://github.com/PerfectlySoft/Perfect-Redis) - A stand-alone Swift wrapper around the Redis client library, enabling access to Redis.
@@ -230,6 +236,8 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [StORM - SQLite](https://github.com/SwiftORM/SQLite-StORM) - Swift ORM for SQLite
 * [StORM - MySQL](https://github.com/SwiftORM/MySQL-StORM) - Swift ORM for MySQL
 * [StORM - PostgreSQL](https://github.com/SwiftORM/Postgres-StORM) - Swift ORM for PostgreSQL
+* [StORM - CouchDB](https://github.com/SwiftORM/CouchDB-StORM) - Swift ORM for CouchDB
+
 
 ## Web Server Connectivity
 
