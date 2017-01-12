@@ -48,6 +48,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [Kitura](https://github.com/IBM-Swift/Kitura)
 * [Perfect](https://github.com/PerfectlySoft/Perfect)
+* [Tris](https://github.com/tris-foundation/universe)
 * [Vapor](https://github.com/vapor/vapor)
 * [Zewo](https://github.com/Zewo/Zewo)
 
@@ -99,6 +100,7 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 
 * [Perfect Networking Library](https://github.com/PerfectlySoft/Perfect-Net) - Core asynchronous networking package used in Perfect. Includes support for TCP, SSL, UNIX socket files and IO event handling.
 * [Perfect CURL](https://github.com/PerfectlySoft/Perfect-CURL) - cURL support for Perfect.
+* [Tris Socket](https://github.com/tris-foundation/socket)
 * [Vapor Socks](https://github.com/vapor/socks) - Pure-Swift Sockets: TCP, UDP; Client, Server; Linux, OS X.
 * [Zewo HTTP Client](https://github.com/Zewo/HTTPClient)
 * [Zewo HTTPS Client](https://github.com/ZewoGraveyard/HTTPSClient)
@@ -162,6 +164,10 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Perfect XML](https://github.com/PerfectlySoft/Perfect-XML) - XML support for Perfect.
 * [Zewo XML](https://github.com/Zewo/XML) - XML/HTML parser for Swift.
 
+### MessagePack
+
+* [Tris MessagePack](https://github.com/tris-foundation/messagepack) - MessagePack serialization library.
+
 ### Miscellaneous Parsers
 
 * [URI Parser](https://github.com/ZewoGraveyard/URI) - URI (RFC 3986) for Swift 3.0.
@@ -221,6 +227,10 @@ Server Side Swift frameworks are projects that provide an infrastructure with wh
 * [Zewo Redis client](https://github.com/Zewo/Redis) - Redis client for (pure) Swift.
 * [Kitura Redis](https://github.com/IBM-Swift/Kitura-redis) - Redis client in (pure) Swift.
 
+### Tarantool
+
+* [Tris Tarantool Module + IProto Connector](https://github.com/tris-foundation/tarantool) In-Process module + TCP remote connector for Tarantool database.
+
 ### Cassandra
 
 * [Kassandra](https://github.com/IBM-Swift/Kassandra) - Cassandra CQL 3.2 client in (pure) Swift.
@@ -248,6 +258,7 @@ Connectors to Web servers such as Apache, nginx.
 * [Perfect HTTP Libraries](https://github.com/PerfectlySoft/Perfect-HTTP) - Base HTTP Support for Perfect.
 * [Perfect FastCGI Apache 2.4](https://github.com/PerfectlySoft/Perfect-FastCGI-Apache2.4)
 * [Perfect FastCGI](https://github.com/PerfectlySoft/Perfect-FastCGI) - FastCGI server for Perfect.
+* [Tris HTTP Server](https://github.com/tris-foundation/http-server)
 * [Vapor Engine](https://github.com/vapor/engine) - Pure Swift HTTP
 * [Kitura Networking](https://github.com/IBM-Swift/Kitura-net) - HTTP server and networking 
 
